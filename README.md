@@ -14,4 +14,6 @@ Two YAML files:
      - List of linked columns
 # How to use:
 Install exhibit
-python Series_generation.py --specification example_spec.yml --user_input example_user_input.yml
+
+
+```python Series_generation.py --specification example_spec.yml --user_input example_user_input.yml```
