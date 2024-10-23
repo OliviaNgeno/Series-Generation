@@ -14,6 +14,11 @@ Two YAML files:
      - List of linked columns
 # How to use:
 Install exhibit
-
-
+```pip install ehxibit```
+Install Sklearn
+```pip install scikit-learn```
+Run the series generation tool, providing paths to the specification yaml and user_input yaml
 ```python Series_generation.py --specification example_spec.yml --user_input example_user_input.yml```
+
+To use the example user_input yaml template:
+  - add path to exhibit db
