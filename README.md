@@ -1,6 +1,14 @@
 # Series-Generation
-The Series Generation tool is designed to generate a series of synthetic datasets over several periods using the Exhibit framework. The tool enables users to simulate periodic data, accounting for new entities and updates to existing entities.
-# User provides:
+The Exhibit Series Generation tool is designed to generate a series of datasets over several periods using the Exhibit framework. The tool enables users to simulate periodic data, accounting for new entities and updates to existing entities.
+## Purpose  
+The tool is useful for developers who need realistic series synthetic data for testing data processing pipelines where new records are generated with every new period, and part of the existing records are updated.
+## Key Features
+•	Generate serial datasets over multiple periods, for example a series of monthly datasets
+•	Incorporate both new and existing entities to simulate updates
+•	Dynamic date updates
+•	Maintaining records of existing entities
+
+## User provides:
 Two YAML files:
   - Exhibit specification file with dates for first period
   - User input file describing:
@@ -12,7 +20,7 @@ Two YAML files:
      - The number of datasets, an integer
      - The required fraction of new records vs existing records in each period
      - List of linked columns
-# How to use:
+## How to use:
 Install exhibit
 
 
