@@ -4,8 +4,11 @@ The Exhibit Series Generation tool is designed to generate a series of datasets 
 The tool is useful for developers who need realistic series synthetic data for testing data processing pipelines where new records are generated with every new period, and part of the existing records are updated.
 ## Key Features
 •	Generate serial datasets over multiple periods, for example a series of monthly datasets
+
 •	Incorporate both new and existing entities to simulate updates
+
 •	Dynamic date updates
+
 •	Maintaining records of existing entities
 
 ## User provides:
