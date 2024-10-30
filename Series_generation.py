@@ -6,7 +6,12 @@
 #     - path to exhibit database exhibit_db_path
 #     - date columns to be updated each month
 #     - static columns to maintain for existing records
-
+#     - The period of the series, can either be ‘months’, ‘weeks’ or ‘days’
+#     - The length of period, an integer
+#     - The number of datasets, an integer
+#     - The required fraction of new records vs existing records in each period
+#     - Linked columns
+#
 
 # Required Libraries
 import pandas as pd
@@ -38,7 +43,7 @@ args = parser.parse_args()
 
 # Configuring the logger
 logging.basicConfig(
-    level=logging.INFO,  # minimum log level (DEBUG, INFO, WARNING, ERROR, CRITICAL)
+    level=logging.INFO,  # minimum log level
     format='%(asctime)s - %(levelname)s - %(message)s',  # format of log messages
     handlers=[
         logging.FileHandler("app.log"),  # Log to file
@@ -67,7 +72,7 @@ def load_yaml_to_spec_dict(yaml_file_path):
         logger.info("YAML file successfully loaded.")
         return spec_dict
     except Exception as e:
-        logger.error(f"Error loading YAML file: {e}")
+        logger.error(f"Error loading YAML specification file: {e}")
         return None
 
 
@@ -82,7 +87,7 @@ def load_user_inputs(yaml_file_path):
         logger.info("User Input successfully loaded.")
         return user_inputs
     except Exception as e:
-        logger.error(f"Error loading User YAML file: {e}")
+        logger.error(f"Error loading User YAML user input file: {e}")
         return None
 
 
@@ -135,13 +140,10 @@ def update_dates(current_start_date, current_end_date, period, length_of_period)
     return next_start_date.strftime("%Y-%m-%d"), next_end_date.strftime("%Y-%m-%d")
 
 
-# In[8]:
-
-
 # first part of periodic generation
 # generating new records
 # apply a new random seed for new unique identifiers
-# new columns is half of dataset (to be refined)
+# number of new records is user provided fraction of number of records in original spec
 # handle date adjustions
 
 def generate_new_records(new_spec_dict):
@@ -166,9 +168,6 @@ def generate_new_records(new_spec_dict):
     new_data_df = exhibit_data.generate()
     logger.info(f"Generated {len(new_data_df)} new records.")
     return new_data_df, new_spec_dict
-
-
-# In[9]:
 
 
 # updating already existing records
@@ -234,13 +233,30 @@ def generate_existing_records(existing_spec_dict):
                 "anonymising_set": reference_table
             }
 
+    # Handle basic constraints
+    if "constraints" in existing_spec_dict and "basic_constraints" in existing_spec_dict["constraints"] and isinstance(existing_spec_dict["constraints"]["basic_constraints"], list):
+        new_constraints_list = []
+        for constraint in existing_spec_dict["constraints"]["basic_constraints"]:
+            if not any(forbidden_val in constraint for forbidden_val in forbidden_values):
+                new_constraints_list.append(constraint)
+        existing_spec_dict["constraints"]["basic_constraints"] = new_constraints_list
+        
+    # Handle custom constraints
+    if "constraints" in existing_spec_dict and "custom_constraints" in existing_spec_dict["constraints"] and isinstance(existing_spec_dict["constraints"]["custom_constraints"], dict):
+        for forbidden_val in forbidden_values:
+            if forbidden_val in existing_spec_dict["constraints"]["custom_constraints"].keys():
+                del existing_spec_dict["constraints"]["custom_constraints"][forbidden_val]
+    
+    # Handle derived columns
+    if "derived_columns" in existing_spec_dict and isinstance(existing_spec_dict["derived_columns"], dict):
+        for forbidden_val in forbidden_values:
+            if forbidden_val in existing_spec_dict["derived_columns"].keys():
+                del existing_spec_dict["derived_columns"][forbidden_val]
+
     exhibit_data = xbt.Exhibit(command="fromspec", source=existing_spec_dict, output="dataframe")
     existing_data_df = exhibit_data.generate()
     logger.info(f"Generated {len(existing_data_df)} updated records for existing entities.")
     return existing_data_df, existing_spec_dict
-
-
-# In[10]:
 
 
 # updating already existing records
@@ -256,19 +272,18 @@ def generate_existing_records_from_third_period(existing_spec_dict):
 
     for date_column in date_columns:
         if date_column in existing_spec_dict["columns"]:
-            current_start_date = existing_spec_dict["columns"][date_column]["from"]
-            current_end_date = existing_spec_dict["columns"][date_column]["to"]
-            new_start_date, new_end_date = update_dates(current_start_date, current_end_date, period, length_of_period)
-            existing_spec_dict["columns"][date_column]["from"] = new_start_date
-            existing_spec_dict["columns"][date_column]["to"] = new_end_date
+            if "from" in existing_spec_dict["columns"][date_column]: 
+                current_start_date = existing_spec_dict["columns"][date_column]["from"]
+                current_end_date = existing_spec_dict["columns"][date_column]["to"]
+                new_start_date, new_end_date = update_dates(current_start_date, current_end_date, period, length_of_period)
+                existing_spec_dict["columns"][date_column]["from"] = new_start_date
+                existing_spec_dict["columns"][date_column]["to"] = new_end_date
 
     exhibit_data = xbt.Exhibit(command="fromspec", source=existing_spec_dict, output="dataframe")
     existing_data_df = exhibit_data.generate()
     logger.info(f"Generated {len(existing_data_df)} updated records for existing entities.")
     return existing_data_df, existing_spec_dict
 
-
-# In[11]:
 
 
 # combining new and updated records
@@ -280,8 +295,6 @@ def combine_and_shuffle_records(new_data_df, existing_data_df):
     return shuffled_df
 
 
-# In[12]:
-
 
 # Adding new records into the database
 
@@ -290,8 +303,6 @@ def insert_new_records_to_reference(new_data_df, exhibit_db_path):
         new_data_df.to_sql(reference_table, conn, if_exists="append", index=False)
     logger.info(f"Inserted {len(new_data_df)} new records into the reference table.")
 
-
-# In[13]:
 
 
 # issues with column ordering when combining and adding
@@ -303,8 +314,6 @@ def get_column_order_from_reference_table(exhibit_db_path, reference_table):
         column_info = pd.read_sql(query, conn)
     return column_info['name'].tolist()
 
-
-# In[14]:
 
 
 def write_new_spec_to_yaml(spec_dict, dataset_num):
@@ -321,8 +330,6 @@ def write_new_spec_to_yaml(spec_dict, dataset_num):
     logger.info(f"Wrote new specification to {yaml_file_name}.")
 
 
-# In[15]:
-
 
 def write_existing_spec_to_yaml(spec_dict, dataset_num):
     """
@@ -336,9 +343,6 @@ def write_existing_spec_to_yaml(spec_dict, dataset_num):
     with open(yaml_file_name, 'w') as yaml_file:
        yaml.dump(spec_dict, yaml_file, sort_keys=False, width=1000)
     logger.info(f"Wrote exisitng specification to {yaml_file_name}.")
-
-
-# In[16]:
 
 
 # User Inputs
@@ -357,10 +361,7 @@ fraction_of_new = Fraction(fraction_of_new)
 linked_columns = user_inputs["linked_columns"]
 
 
-# In[17]:
-
-
-# defining arguements (to be refined)
+# defining arguements 
 spec_dict = load_yaml_to_spec_dict(spec_file_path)
 row_count = spec_dict["metadata"]["number_of_rows"]  # Expected number of rows for new records will be derived from this
 num_new_records = int(row_count * fraction_of_new)
@@ -368,11 +369,10 @@ num_existing_records = row_count - num_new_records
 table_id = spec_dict["metadata"]["id"]
 uuid_columns = spec_dict["metadata"]["uuid_columns"]
 reference_table = f"temp_{table_id}_reference" # name of reference table 
+forbidden_values = date_columns + static_columns
 primary_unique_identifier = uuid_columns[0]
 logger.info(f"Primary Unique Identifier: {primary_unique_identifier}")
 
-
-# In[18]:
 
 
 # calling in order
@@ -441,14 +441,11 @@ for dataset_num in range(1, num_datasets + 1):
         write_existing_spec_to_yaml(existing_spec_dict, dataset_num)
 
 
-# In[ ]:
-
 
 # clean up the temp_tables
-db_util.purge_temp_tables()
+# db_util.purge_temp_tables()
 
 
-# In[ ]:
 
 
 
