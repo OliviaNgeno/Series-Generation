@@ -10,6 +10,9 @@ The tool is useful for developers who need realistic series synthetic data for t
 •	Dynamic date updates
 
 •	Maintaining records of existing entities
+## How It Works
+ 
+For an in-depth explanation of the inner workings, please refer to the [How It Works](HOW_IT_WORKS.md) document.
 
 ## User provides:
 Two YAML files:
@@ -42,5 +45,4 @@ Run the series generation tool, providing paths to the specification yaml and us
 ```python Series_generation.py --specification example_spec.yml --user_input example_user_input.yml```
 
 
-To use the example user_input yaml template:
-  - add path to exhibit db
+To use the example user_input yaml template, open the template and provide exhibit_db path.

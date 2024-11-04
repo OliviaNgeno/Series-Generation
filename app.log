@@ -1,0 +1,289 @@
+2024-11-04 09:55:26,595 - INFO - User Input successfully loaded.
+2024-11-04 09:55:26,611 - INFO - YAML file successfully loaded.
+2024-11-04 09:55:26,612 - INFO - Primary Unique Identifier: id
+2024-11-04 09:55:26,612 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 09:55:26,743 - INFO - Generated 100 new records for first period.
+2024-11-04 09:55:26,743 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_1.yaml.
+2024-11-04 09:57:02,680 - INFO - User Input successfully loaded.
+2024-11-04 09:57:02,702 - INFO - YAML file successfully loaded.
+2024-11-04 09:57:02,702 - INFO - Primary Unique Identifier: id
+2024-11-04 09:57:02,702 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 09:57:02,785 - INFO - Generated 100 new records for first period.
+2024-11-04 09:57:02,801 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_1.yaml.
+2024-11-04 10:46:05,382 - INFO - User Input successfully loaded.
+2024-11-04 10:46:05,407 - INFO - YAML file successfully loaded.
+2024-11-04 10:46:05,407 - INFO - Primary Unique Identifier: id
+2024-11-04 10:46:05,408 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 10:46:05,525 - INFO - Generated 100 new records for first period.
+2024-11-04 10:46:05,539 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_1.yaml.
+2024-11-04 10:46:05,542 - INFO - 
+--- Generating Dataset 2 ---
+2024-11-04 10:46:05,585 - INFO - Generated 33 new records.
+2024-11-04 10:46:05,640 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:46:05,640 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:46:05,650 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:46:05,663 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_2.yaml.
+2024-11-04 10:46:05,675 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_2.yaml.
+2024-11-04 10:46:05,677 - INFO - 
+--- Generating Dataset 3 ---
+2024-11-04 10:46:05,737 - INFO - Generated 33 new records.
+2024-11-04 10:46:05,792 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:46:05,799 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:46:05,812 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:46:05,830 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_3.yaml.
+2024-11-04 10:46:05,841 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_3.yaml.
+2024-11-04 10:46:05,841 - INFO - 
+--- Generating Dataset 4 ---
+2024-11-04 10:46:05,891 - INFO - Generated 33 new records.
+2024-11-04 10:46:05,930 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:46:05,936 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:46:05,943 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:46:05,947 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_4.yaml.
+2024-11-04 10:46:05,963 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_4.yaml.
+2024-11-04 10:46:05,963 - INFO - 
+--- Generating Dataset 5 ---
+2024-11-04 10:46:06,008 - INFO - Generated 33 new records.
+2024-11-04 10:46:06,041 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:46:06,041 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:46:06,065 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:46:06,079 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_5.yaml.
+2024-11-04 10:46:06,083 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_5.yaml.
+2024-11-04 10:46:06,083 - INFO - 
+--- Generating Dataset 6 ---
+2024-11-04 10:46:06,124 - INFO - Generated 33 new records.
+2024-11-04 10:46:06,158 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:46:06,158 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:46:06,177 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:46:06,179 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_6.yaml.
+2024-11-04 10:46:06,198 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_6.yaml.
+2024-11-04 10:46:06,198 - INFO - 
+--- Generating Dataset 7 ---
+2024-11-04 10:46:06,237 - INFO - Generated 33 new records.
+2024-11-04 10:46:06,274 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:46:06,276 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:46:06,276 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:46:06,296 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_7.yaml.
+2024-11-04 10:46:06,308 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_7.yaml.
+2024-11-04 10:52:11,987 - INFO - User Input successfully loaded.
+2024-11-04 10:52:12,002 - INFO - YAML file successfully loaded.
+2024-11-04 10:52:12,004 - INFO - Primary Unique Identifier: id
+2024-11-04 10:52:12,004 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 10:52:12,078 - INFO - Generated 100 new records for first period.
+2024-11-04 10:52:12,090 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_1.yaml.
+2024-11-04 10:52:12,095 - INFO - 
+--- Generating Dataset 2 ---
+2024-11-04 10:52:12,130 - INFO - Generated 33 new records.
+2024-11-04 10:52:12,180 - INFO - Generated 66 updated records for existing entities.
+2024-11-04 10:52:12,180 - INFO - Combined and shuffled 99 records (New: 33, Existing: 66).
+2024-11-04 10:52:12,194 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:52:12,203 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_2.yaml.
+2024-11-04 10:52:12,216 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_2.yaml.
+2024-11-04 10:52:12,217 - INFO - 
+--- Generating Dataset 3 ---
+2024-11-04 10:52:12,246 - INFO - Generated 33 new records.
+2024-11-04 10:52:12,284 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:52:12,295 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:52:12,305 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:52:12,316 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_3.yaml.
+2024-11-04 10:52:12,325 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_3.yaml.
+2024-11-04 10:52:12,325 - INFO - 
+--- Generating Dataset 4 ---
+2024-11-04 10:52:12,363 - INFO - Generated 33 new records.
+2024-11-04 10:52:12,413 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:52:12,416 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:52:12,426 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:52:12,438 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_4.yaml.
+2024-11-04 10:52:12,446 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_4.yaml.
+2024-11-04 10:52:12,446 - INFO - 
+--- Generating Dataset 5 ---
+2024-11-04 10:52:12,487 - INFO - Generated 33 new records.
+2024-11-04 10:52:12,530 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:52:12,530 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:52:12,544 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:52:12,553 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_5.yaml.
+2024-11-04 10:52:12,563 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_5.yaml.
+2024-11-04 10:52:12,563 - INFO - 
+--- Generating Dataset 6 ---
+2024-11-04 10:52:12,605 - INFO - Generated 33 new records.
+2024-11-04 10:52:12,646 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:52:12,646 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:52:12,662 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:52:12,669 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_6.yaml.
+2024-11-04 10:52:12,681 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_6.yaml.
+2024-11-04 10:52:12,681 - INFO - 
+--- Generating Dataset 7 ---
+2024-11-04 10:52:12,714 - INFO - Generated 33 new records.
+2024-11-04 10:52:12,771 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:52:12,779 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:52:12,788 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:52:12,802 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_7.yaml.
+2024-11-04 10:52:12,812 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_7.yaml.
+2024-11-04 10:55:02,085 - INFO - User Input successfully loaded.
+2024-11-04 10:55:02,108 - INFO - YAML file successfully loaded.
+2024-11-04 10:55:02,108 - INFO - Primary Unique Identifier: id
+2024-11-04 10:55:02,108 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 10:55:02,180 - INFO - Generated 100 new records for first period.
+2024-11-04 10:55:02,181 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_1.yaml.
+2024-11-04 10:55:02,196 - INFO - 
+--- Generating Dataset 2 ---
+2024-11-04 10:55:02,232 - INFO - Generated 33 new records.
+2024-11-04 10:55:02,289 - INFO - Generated 66 updated records for existing entities.
+2024-11-04 10:55:02,297 - INFO - Combined and shuffled 99 records (New: 33, Existing: 66).
+2024-11-04 10:55:02,301 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:55:02,318 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_2.yaml.
+2024-11-04 10:55:02,325 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_2.yaml.
+2024-11-04 10:55:02,325 - INFO - 
+--- Generating Dataset 3 ---
+2024-11-04 10:55:02,365 - INFO - Generated 33 new records.
+2024-11-04 10:55:02,408 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:55:02,408 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:55:02,422 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:55:02,433 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_3.yaml.
+2024-11-04 10:55:02,442 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_3.yaml.
+2024-11-04 10:55:02,443 - INFO - 
+--- Generating Dataset 4 ---
+2024-11-04 10:55:02,482 - INFO - Generated 33 new records.
+2024-11-04 10:55:02,515 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:55:02,515 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:55:02,534 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:55:02,537 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_4.yaml.
+2024-11-04 10:55:02,554 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_4.yaml.
+2024-11-04 10:55:02,554 - INFO - 
+--- Generating Dataset 5 ---
+2024-11-04 10:55:02,589 - INFO - Generated 33 new records.
+2024-11-04 10:55:02,633 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:55:02,633 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:55:02,633 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:55:02,652 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_5.yaml.
+2024-11-04 10:55:02,665 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_5.yaml.
+2024-11-04 10:55:02,666 - INFO - 
+--- Generating Dataset 6 ---
+2024-11-04 10:55:02,704 - INFO - Generated 33 new records.
+2024-11-04 10:55:02,732 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:55:02,732 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:55:02,750 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:55:02,766 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_6.yaml.
+2024-11-04 10:55:02,776 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_6.yaml.
+2024-11-04 10:55:02,776 - INFO - 
+--- Generating Dataset 7 ---
+2024-11-04 10:55:02,817 - INFO - Generated 33 new records.
+2024-11-04 10:55:02,864 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 10:55:02,866 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 10:55:02,875 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 10:55:02,884 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\new_specification_dataset_7.yaml.
+2024-11-04 10:55:02,897 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new\exisiting_specification_dataset_7.yaml.
+2024-11-04 11:38:25,814 - INFO - User Input successfully loaded.
+2024-11-04 11:38:25,833 - INFO - YAML file successfully loaded.
+2024-11-04 11:38:25,834 - INFO - Primary Unique Identifier: id
+2024-11-04 11:38:25,834 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 11:38:25,906 - INFO - Generated 100 new records for first period.
+2024-11-04 11:38:25,920 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_1.yaml.
+2024-11-04 11:38:25,923 - INFO - 
+--- Generating Dataset 2 ---
+2024-11-04 11:38:25,960 - INFO - Generated 33 new records.
+2024-11-04 11:38:26,008 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 11:38:26,018 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 11:38:26,023 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 11:38:26,036 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_2.yaml.
+2024-11-04 11:38:26,058 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_2.yaml.
+2024-11-04 11:38:26,059 - INFO - 
+--- Generating Dataset 3 ---
+2024-11-04 11:38:26,095 - INFO - Generated 33 new records.
+2024-11-04 11:38:26,137 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 11:38:26,137 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 11:38:26,145 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 11:38:26,158 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_3.yaml.
+2024-11-04 11:38:26,169 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_3.yaml.
+2024-11-04 11:38:26,173 - INFO - 
+--- Generating Dataset 4 ---
+2024-11-04 11:38:26,202 - INFO - Generated 33 new records.
+2024-11-04 11:38:26,238 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 11:38:26,252 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 11:38:26,252 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 11:38:26,269 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_4.yaml.
+2024-11-04 11:38:26,282 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_4.yaml.
+2024-11-04 11:38:26,282 - INFO - 
+--- Generating Dataset 5 ---
+2024-11-04 11:38:26,319 - INFO - Generated 33 new records.
+2024-11-04 11:38:26,355 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 11:38:26,370 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 11:38:26,378 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 11:38:26,392 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_5.yaml.
+2024-11-04 11:38:26,402 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_5.yaml.
+2024-11-04 11:38:26,403 - INFO - 
+--- Generating Dataset 6 ---
+2024-11-04 11:38:26,441 - INFO - Generated 33 new records.
+2024-11-04 11:38:26,469 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 11:38:26,469 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 11:38:26,486 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 11:38:26,497 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_6.yaml.
+2024-11-04 11:38:26,503 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_6.yaml.
+2024-11-04 11:38:26,503 - INFO - 
+--- Generating Dataset 7 ---
+2024-11-04 11:38:26,537 - INFO - Generated 33 new records.
+2024-11-04 11:38:26,590 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 11:38:26,590 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 11:38:26,603 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 11:38:26,610 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_7.yaml.
+2024-11-04 11:38:26,626 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_7.yaml.
+2024-11-04 12:14:28,045 - INFO - User Input successfully loaded.
+2024-11-04 12:14:28,054 - INFO - YAML file successfully loaded.
+2024-11-04 12:14:28,054 - INFO - Primary Unique Identifier: id
+2024-11-04 12:14:28,054 - INFO - 
+--- Generating Dataset 1 ---
+2024-11-04 12:14:28,129 - INFO - Generated 100 new records for first period.
+2024-11-04 12:14:28,141 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_1.yaml.
+2024-11-04 12:14:28,144 - INFO - 
+--- Generating Dataset 2 ---
+2024-11-04 12:14:28,186 - INFO - Generated 33 new records.
+2024-11-04 12:14:28,241 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 12:14:28,244 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 12:14:28,255 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 12:14:28,268 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_2.yaml.
+2024-11-04 12:14:28,277 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_2.yaml.
+2024-11-04 12:14:28,278 - INFO - 
+--- Generating Dataset 3 ---
+2024-11-04 12:14:28,317 - INFO - Generated 33 new records.
+2024-11-04 12:14:28,355 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 12:14:28,359 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 12:14:28,371 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 12:14:28,384 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_3.yaml.
+2024-11-04 12:14:28,392 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_3.yaml.
+2024-11-04 12:14:28,393 - INFO - 
+--- Generating Dataset 4 ---
+2024-11-04 12:14:28,430 - INFO - Generated 33 new records.
+2024-11-04 12:14:28,468 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 12:14:28,471 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 12:14:28,479 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 12:14:28,490 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_4.yaml.
+2024-11-04 12:14:28,499 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_4.yaml.
+2024-11-04 12:14:28,500 - INFO - 
+--- Generating Dataset 5 ---
+2024-11-04 12:14:28,542 - INFO - Generated 33 new records.
+2024-11-04 12:14:28,580 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 12:14:28,582 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 12:14:28,591 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 12:14:28,602 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_5.yaml.
+2024-11-04 12:14:28,611 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_5.yaml.
+2024-11-04 12:14:28,611 - INFO - 
+--- Generating Dataset 6 ---
+2024-11-04 12:14:28,649 - INFO - Generated 33 new records.
+2024-11-04 12:14:28,686 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 12:14:28,689 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 12:14:28,697 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 12:14:28,709 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_6.yaml.
+2024-11-04 12:14:28,717 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_6.yaml.
+2024-11-04 12:14:28,718 - INFO - 
+--- Generating Dataset 7 ---
+2024-11-04 12:14:28,753 - INFO - Generated 33 new records.
+2024-11-04 12:14:28,789 - INFO - Generated 67 updated records for existing entities.
+2024-11-04 12:14:28,793 - INFO - Combined and shuffled 100 records (New: 33, Existing: 67).
+2024-11-04 12:14:28,802 - INFO - Inserted 33 new records into the reference table.
+2024-11-04 12:14:28,815 - INFO - Wrote new specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\new_specification_dataset_7.yaml.
+2024-11-04 12:14:28,825 - INFO - Wrote exisitng specification to C:/Users/olivin01/Documents/Data generation trials/immunisation trials/gh/gh2/gh3/child/new2\exisiting_specification_dataset_7.yaml.
