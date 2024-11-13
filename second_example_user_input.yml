@@ -1,0 +1,40 @@
+# ----------------------------------------------------------
+# User Input YAML 
+# YAML file of user inputs with:
+# - Path to the Exhibit database
+# - List of date columns to be updated in each period
+# - List of static columns to be maintained from previous records
+# - The period of the series, can either be ‘months’, ‘weeks’ or ‘days’
+# - The length of period, an integer
+# - The number of datasets, an integer
+# - The required fraction of new records vs existing records in each period
+# - List of linked columns
+#
+#
+# Example:
+#
+# A series of  5 datasets every 2 weeks, with a half new entities every period, 
+# 
+# 
+# exhibit_db_path : "C:/Users/exhibit/db/exhibit.db"  
+# date_columns : ['date_of_appointment']  
+# static_columns : ['gender', 'ethnicity', 'country_of_birth']  
+# period : 'weeks' 
+# length_of_period : 2 
+# num_datasets : 5 
+# fraction_of_new : 1/2 
+# linked_columns : ['Id', 'chi']
+#
+# ----------------------------------------------------------
+exhibit_db_path : "C:/Users/.../exhibit/db/exhibit.db"  
+date_columns : ['date_updated', 'date_created']  
+static_columns : ['date_created', 'gender']  
+period : 'weeks' 
+length_of_period : 4
+num_datasets : 7 
+fraction_of_new : 1/3
+linked_columns : ['id', 'chi']
+
+# ----------------------------------------------------------
+
+
