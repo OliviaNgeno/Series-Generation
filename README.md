@@ -1,4 +1,5 @@
 # Series-Generation
+![Example Spec](./images/series_gen.png)
 The Exhibit Series Generation tool is designed to generate a series of datasets over several periods using the Exhibit framework. The tool enables users to simulate periodic updates on synthetic data, accounting for new entities and updates to existing entities.
 ## Purpose  
 The tool is useful for developers who need realistic series synthetic data for testing data processing pipelines where new records are generated with every new period, and part of the existing records are updated. Periodic data is useful for developing ETL where slowly changing dimensions are updated while natural keys and some rows are maintained as in previous files. To simulate periodic updates, each period will have new records and updates to existing records. And an updated at date column that is used to determine which records to include in the load.
@@ -26,6 +27,10 @@ Two YAML files:
      - The number of datasets, an integer
      - The required fraction of new records vs existing records in each period
      - List of linked columns
+
+######  
+![Example Spec](./images/example_spec.PNG)
+![Example User Input](./images/example_user_input.PNG)
 ## How to use:
 Install exhibit
 
@@ -46,3 +51,6 @@ Run the series generation tool, providing paths to the specification yaml and us
 
 
 To use the example user_input yaml template, open the template and provide exhibit_db path.
+
+###### example generated data
+![Example Generated Data](./images/example_gen_data.PNG)

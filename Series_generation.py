@@ -31,7 +31,7 @@ import argparse
 import os
 from tkinter import Tk, filedialog
 
-# Create the parser
+# parser
 parser = argparse.ArgumentParser(description="Series Generation")
 
 
@@ -56,7 +56,7 @@ logging.basicConfig(
 # logger object
 logger = logging.getLogger(__name__)
 
-# option to provide path tho save files
+# option to provide path to save files
 root = Tk()
 root.withdraw()
 folder_path = filedialog.askdirectory(title="Select Folder to Save CSV Files")
@@ -103,7 +103,7 @@ def load_user_inputs(yaml_file_path):
 
 
 
-# generation of the initial records with specification dictionary as provided
+# function for generation of the initial records with specification dictionary as provided
 # followed by insertion into the Exhibit database as a reference table for future use
 
 def generate_first_period(spec_dict):
