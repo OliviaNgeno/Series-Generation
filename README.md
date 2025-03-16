@@ -1,5 +1,6 @@
-# Series-Generation
-                            ![Example Spec](./images/series_gen.png)
+# Series-Generation Tool
+
+![Example Spec](./images/series_gen.png)
 
 
 The Exhibit Series Generation tool is designed to generate a series of datasets over several periods using the Exhibit framework. The tool enables users to simulate periodic updates on synthetic data, accounting for new entities and updates to existing entities.
