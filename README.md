@@ -31,29 +31,62 @@ Two YAML files:
      - The required fraction of new records vs existing records in each period
      - List of linked columns
 
-######  
-![Example Spec](./images/example_spec.PNG)
-![Example User Input](./images/example_user_input.PNG)
-## How to use:
-Install exhibit
+###### Specification snippet
+<img src="./images/example_spec.PNG" alt="Example Spec" width="300">
 
+###### User Input snippet
+<img src="./images/example_user_input.PNG" alt="Example User Input" width="300">
 
-```pip install ehxibit```
+## 🚀 Installation & Setup
 
+To get started with **Series-Generation**, follow these steps:
 
-Install Sklearn
+### **Prerequisites**
+Ensure you have **Python 3.7+** installed on your system. You can check your Python version by running:
 
+```bash
+python --version
+```
 
-```pip install scikit-learn```
+### **1⃣ Clone the Repository**
+Clone the repository to your local machine using Git:
 
+```bash
+git clone https://github.com/OliviaNgeno/Series-Generation.git
+```
 
-Run the series generation tool, providing paths to the specification yaml and user_input yaml
+### **2⃣ Navigate to the Project Directory**
+Move into the cloned repository:
 
+```bash
+cd Series-Generation
+```
 
-```python Series_generation.py --specification example_spec.yml --user_input example_user_input.yml```
+### **3⃣ Create a Virtual Environment (Optional but Recommended)**
+It's good practice to create a virtual environment to manage dependencies:
 
+```bash
+python -m venv env
+source env/bin/activate  # On macOS/Linux
+env\Scripts\activate  # On Windows
+```
 
-To use the example user_input yaml template, open the template and provide exhibit_db path.
+### **4⃣ Install Dependencies**
+Run the following command to install all required dependencies:
 
-###### example generated data
-![Example Generated Data](./images/example_gen_data.PNG)
+```bash
+pip install -r requirements.txt
+```
+#### To use the example user_input yaml template, open the template and provide exhibit_db path.
+You can customize the tool by modifying the YAML configuration files (`example_spec.yml`, `example_user_input.yml`).
+
+### **5⃣ Running the Tool**
+Use the following command to run the synthetic data generator:
+
+```bash
+python Series_generation.py --specification example_spec.yml --user_input example_user_input.yml
+```
+
+###### Example Generated Data
+<img src="./images/example_gen_data.PNG" alt="Example Generated Data" width="300">
+
