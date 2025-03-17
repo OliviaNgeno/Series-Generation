@@ -48,30 +48,21 @@ Ensure you have **Python 3.7+** installed on your system. You can check your Pyt
 python --version
 ```
 
-### **1⃣ Clone the Repository**
+### **Clone the Repository**
 Clone the repository to your local machine using Git:
 
 ```bash
 git clone https://github.com/OliviaNgeno/Series-Generation.git
 ```
 
-### **2⃣ Navigate to the Project Directory**
+### **Navigate to the Project Directory**
 Move into the cloned repository:
 
 ```bash
 cd Series-Generation
 ```
 
-### **3⃣ Create a Virtual Environment (Optional but Recommended)**
-It's good practice to create a virtual environment to manage dependencies:
-
-```bash
-python -m venv env
-source env/bin/activate  # On macOS/Linux
-env\Scripts\activate  # On Windows
-```
-
-### **4⃣ Install Dependencies**
+### **Install Dependencies**
 Run the following command to install all required dependencies:
 
 ```bash
@@ -80,7 +71,7 @@ pip install -r requirements.txt
 #### To use the example user_input yaml template, open the template and provide exhibit_db path.
 You can customize the tool by modifying the YAML configuration files (`example_spec.yml`, `example_user_input.yml`).
 
-### **5⃣ Running the Tool**
+### **Running the Tool**
 Use the following command to run the synthetic data generator:
 
 ```bash
